@@ -3182,6 +3182,10 @@ msgid "Portuguese"
 msgstr "Portugais"
 
 #: rayforge/ui_gtk/settings/general_preferences_page.py
+msgid "Russian"
+msgstr "Russe"
+
+#: rayforge/ui_gtk/settings/general_preferences_page.py
 msgid "Ukrainian"
 msgstr "Ukrainien"
 

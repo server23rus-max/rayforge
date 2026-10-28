@@ -1,0 +1,365 @@
+# Russian translations for Rayforge.
+# Copyright (C) 2025 The Rayforge Project
+# This file is distributed under the same license as the Rayforge package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rayforge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 02:42+0200\n"
+"PO-Revision-Date: 2026-10-28 12:00+0000\n"
+"Last-Translator: server23rus@gmail.com\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Allow Flipping"
+msgstr "Разрешить разворот направления"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Allow reversing path direction for shorter travel"
+msgstr ""
+"Разрешить менять направление обхода пути для сокращения холостых "
+"перемещений."
+
+#: post_processors/widgets/optimize_group.py
+msgid "Preserve First Workpiece"
+msgstr "Сохранять положение первой заготовки"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Keep the first workpiece at its original position"
+msgstr "Оставляет первую заготовку на исходном месте."
+
+#: post_processors/widgets/optimize_group.py
+msgid "Choose Best Start Point"
+msgstr "Выбирать оптимальную начальную точку"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Start closed paths at the vertex nearest the laser head to shorten travel "
+"moves."
+msgstr ""
+"Начинать замкнутые контуры с вершины, ближайшей к лазерной головке, чтобы "
+"сократить холостые перемещения."
+
+#: post_processors/widgets/optimize_group.py
+msgid "Prefer Corners"
+msgstr "Предпочитать углы"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Start closed paths at a sharp corner where the path has one, which makes the"
+" seam less visible."
+msgstr ""
+"Начинать замкнутые контуры с острого угла, если он есть, — это делает шов "
+"менее заметным."
+
+#: post_processors/widgets/optimize_group.py
+msgid "Merge Scanlines"
+msgstr "Объединять растровые линии"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Merges nearby parallel cut lines into longer scanlines when this is faster "
+"for the machine's acceleration."
+msgstr ""
+"Объединяет близкие параллельные линии резки в более длинные растровые линии,"
+" если это быстрее с учётом ускорения станка."
+
+#: post_processors/widgets/optimize_group.py
+msgid "Max gap"
+msgstr "Макс. разрыв"
+
+#: post_processors/widgets/optimize_group.py
+msgid ""
+"Maximum gap to bridge at zero power; 0 decides automatically from the "
+"machine's acceleration"
+msgstr ""
+"Максимальный разрыв, перекрываемый на нулевой мощности; 0 — автоматический "
+"расчёт по ускорению станка"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Flipping"
+msgstr "Переключить разворот направления"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Preserve First Workpiece"
+msgstr "Переключить сохранение положения первой заготовки"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Choose Best Start Point"
+msgstr "Переключить выбор оптимальной начальной точки"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Toggle Prefer Corners"
+msgstr "Переключить предпочтение углов"
+
+#: post_processors/widgets/optimize_group.py
+msgid "Change maximum bridged gap"
+msgstr "Изменить максимальный перекрываемый разрыв"
+
+#: post_processors/widgets/overscan_group.py
+msgid "This machine adds overscan automatically; the setting has no effect."
+msgstr "Этот станок добавляет перебег автоматически; настройка не действует."
+
+#: post_processors/widgets/overscan_group.py
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Automatic Distance"
+msgstr "Автоматическое расстояние"
+
+#: post_processors/widgets/overscan_group.py
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Calculate distance based on speed and acceleration with safety factor"
+msgstr ""
+"Рассчитывает расстояние на основе скорости и ускорения с запасом по "
+"безопасности"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Overscan Distance"
+msgstr "Расстояние перебега"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Manual distance setting"
+msgstr "Ручная настройка расстояния"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Toggle Auto Overscan"
+msgstr "Переключить автоматический перебег"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Auto Calculate Overscan Distance"
+msgstr "Автоматический расчёт расстояния перебега"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Disable Auto Overscan"
+msgstr "Отключить автоматический перебег"
+
+#: post_processors/widgets/overscan_group.py
+msgid "Change Overscan Distance"
+msgstr "Изменить расстояние перебега"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Smoothness"
+msgstr "Плавность"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Higher values produce smoother curves"
+msgstr "Более высокие значения дают более плавные кривые"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Corner Angle Threshold"
+msgstr "Пороговый угол для углов"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Angles sharper than this are kept as corners (degrees)"
+msgstr "Углы острее этого значения сохраняются как углы (в градусах)"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Change smoothness"
+msgstr "Изменить плавность"
+
+#: post_processors/widgets/smooth_group.py
+msgid "Change corner angle"
+msgstr "Изменить пороговый угол"
+
+#: post_processors/widgets/crop_group.py
+msgid "Offset"
+msgstr "Смещение"
+
+#: post_processors/widgets/crop_group.py
+msgid "Grow/shrink stock boundary before cropping"
+msgstr "Увеличивает/уменьшает границу материала перед обрезкой"
+
+#: post_processors/widgets/crop_group.py
+msgid "Change Crop Offset"
+msgstr "Изменить смещение обрезки"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Number of Passes"
+msgstr "Количество проходов"
+
+#: post_processors/widgets/multipass_group.py
+msgid "How often to repeat the entire step"
+msgstr "Сколько раз повторить весь этап"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Z Step-Down per Pass"
+msgstr "Шаг понижения по Z за проход"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Distance to lower Z-axis for each subsequent pass"
+msgstr "Расстояние опускания оси Z на каждый следующий проход"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Change number of passes"
+msgstr "Изменить количество проходов"
+
+#: post_processors/widgets/multipass_group.py
+msgid "Change Z Step-Down"
+msgstr "Изменить шаг понижения по Z"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Lead-In Distance"
+msgstr "Длина подвода"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Distance of zero-power move before cut starts"
+msgstr "Длина перемещения на нулевой мощности перед началом резки"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Lead-Out Distance"
+msgstr "Длина отвода"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Distance of zero-power move after cut ends"
+msgstr "Длина перемещения на нулевой мощности после окончания резки"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Toggle Auto Lead-In/Out"
+msgstr "Переключить автоматический подвод/отвод"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Auto Calculate Lead-In/Out Distance"
+msgstr "Автоматический расчёт длины подвода/отвода"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Disable Auto Lead-In/Out"
+msgstr "Отключить автоматический подвод/отвод"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Change Lead-In Distance"
+msgstr "Изменить длину подвода"
+
+#: post_processors/widgets/lead_in_out_group.py
+msgid "Change Lead-Out Distance"
+msgstr "Изменить длину отвода"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Cut Length"
+msgstr "Длина резки"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Distance the laser fires before each gap"
+msgstr "Длина резки лазером перед каждым пропуском"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Skip Length"
+msgstr "Длина пропуска"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Distance travelled with the laser off between cuts"
+msgstr "Длина перемещения с выключенным лазером между резами"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Change perforation cut length"
+msgstr "Изменить длину резки перфорации"
+
+#: post_processors/widgets/perforation_group.py
+msgid "Change perforation skip length"
+msgstr "Изменить длину пропуска перфорации"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Tolerance"
+msgstr "Допуск"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Maximum distance for lines to be considered overlapping"
+msgstr "Максимальное расстояние, при котором линии считаются перекрывающимися"
+
+#: post_processors/widgets/merge_lines_group.py
+msgid "Change merge tolerance"
+msgstr "Изменить допуск объединения"
+
+#: post_processors/transformers/lead_in_out_transformer.py
+msgid "Lead-In/Out"
+msgstr "Подвод/отвод"
+
+#: post_processors/transformers/lead_in_out_transformer.py
+msgid "Adds zero-power lead-in and lead-out moves to vector contours."
+msgstr ""
+"Добавляет к векторным контурам перемещения подвода и отвода на нулевой "
+"мощности."
+
+#: post_processors/transformers/optimize_transformer.py
+msgid "Optimize Path"
+msgstr "Оптимизация пути"
+
+#: post_processors/transformers/optimize_transformer.py
+msgid "Minimizes travel distance by reordering segments."
+msgstr ""
+"Сокращает длину холостых перемещений за счёт изменения порядка сегментов."
+
+#: post_processors/transformers/bidir_scan_offset_transformer.py
+msgid "Bidirectional Scan Offset"
+msgstr "Смещение двунаправленного сканирования"
+
+#: post_processors/transformers/bidir_scan_offset_transformer.py
+msgid ""
+"Shifts right-to-left raster passes along X to correct scan-direction skew."
+msgstr ""
+"Сдвигает проходы растра справа налево по оси X, компенсируя перекос "
+"направления сканирования."
+
+#: post_processors/transformers/smooth_transformer.py
+msgid "Smooth Path"
+msgstr "Сглаживание пути"
+
+#: post_processors/transformers/smooth_transformer.py
+msgid "Smooths the path by applying a Gaussian filter."
+msgstr "Сглаживает путь с помощью фильтра Гаусса."
+
+#: post_processors/transformers/merge_lines_transformer.py
+msgid "Merge Lines"
+msgstr "Объединение линий"
+
+#: post_processors/transformers/merge_lines_transformer.py
+msgid "Merges overlapping lines to avoid double passing."
+msgstr "Объединяет перекрывающиеся линии, чтобы избежать повторного прохода."
+
+#: post_processors/transformers/perforation_transformer.py
+msgid "Perforation"
+msgstr "Перфорация"
+
+#: post_processors/transformers/perforation_transformer.py
+msgid ""
+"Cuts in dashes: the laser fires for the cut length and skips the skip length"
+msgstr ""
+"Режет пунктиром: лазер работает на длину резки и пропускает длину пропуска"
+
+#: post_processors/transformers/overscan_transformer.py
+msgid "Overscan"
+msgstr "Перебег"
+
+#: post_processors/transformers/overscan_transformer.py
+msgid "Extends raster lines to ensure constant engraving speed."
+msgstr ""
+"Удлиняет растровые линии для поддержания постоянной скорости гравировки."
+
+#: post_processors/transformers/crop_transformer.py
+msgid "Crop to Stock"
+msgstr "Обрезка по материалу"
+
+#: post_processors/transformers/crop_transformer.py
+msgid "Crops cutting lines to stock boundary."
+msgstr "Обрезает линии резки по границе материала."
+
+#: post_processors/transformers/multipass_transformer.py
+msgid "Multi-Pass"
+msgstr "Несколько проходов"
+
+#: post_processors/transformers/multipass_transformer.py
+msgid "Repeats the path multiple times, optionally stepping down in Z."
+msgstr "Повторяет путь несколько раз, опционально с понижением по Z."
+
+#: post_processors/transformers/tabs_transformer.py
+msgid "Tabs"
+msgstr "Перемычки"
+
+#: post_processors/transformers/tabs_transformer.py
+msgid "Creates holding tabs by adding gaps or reducing power on cut paths"
+msgstr ""
+"Создаёт технологические перемычки за счёт пропусков или снижения мощности на"
+" пути резки"
